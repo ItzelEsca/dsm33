@@ -1,0 +1,14 @@
+img {
+    margin-left: 50%;
+    margin-right: 50%;
+    border: 2px solid pink;
+    padding: 5px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
