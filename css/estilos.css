@@ -12,3 +12,22 @@ img {
 p {
     text-align: justify;
 }
+
+body {
+    /*background-image: url(../imagenes/gatito.jpg);*/
+    background-color: powderblue;
+    color: white;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.alerta {
+    background-color: khaki;
+    color: red;
+    border: 1px solid red;
+    margin-top: 15px;
+    padding: 10 px;
+    border-radius: 7px;
+    text-align: center;
+}
