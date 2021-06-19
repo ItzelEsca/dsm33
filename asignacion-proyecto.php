@@ -9,47 +9,33 @@
 </head>
 <body>
 <div class="container">
-    <h1>Conceptos básicos de PHP</h1>
+    <h1>Asignación de proyectos</h1>
     <?php
-    //variables
-    $edad= 18;
-    $precio=15.68;
-    $valido=true;
-    $nombre= "Itzel Escalante";
-    $proyectos= [1,'dos',3,'cuatro',5,6,[1,2,3,4,5,6]];
-    //echo $proyectos=[1];
-    //echo $proyectos[6][2];
-    $letras=[
-        'vocales'=>['a','e','i','o','u']
-        , 'abecedario' => ['a','b','c','d','e','...']
-        , 'numeros' => [1,2,3,4,5,6,7,8,9,10]
-        , 'numeros_romano_decimal' => [
-            'i'=> 1
-            ,'ii'=> 2
-            ,'iii'=> 3
-            ,'iv'=> 4
-            ,'v'=> 5
-            ,'vi'=> 6
-            ,'vii'=> 7
-            ,'viii'=> 8
-            ,'ix'=> 9
-            ,'x'=> 10
-        ]
-        , 'numeros_decimal_romano' => [
-            1=> 'i'
-            ,2=> 'ii'
-            ,3=> 'iii'
-            ,4=> 'iv'
-            ,5=> 'v'
-            ,6=> 'vi'
-            ,7=> 'vii'
-            ,8=> 'viii'
-            ,9=> 'ix'
-            ,10=>'x'
-        ]
-        ];
-        echo $letras['vocales'][1];
-        //echo $letras_numeros['numeros_decimal_romano'][9];
+    $proyectos = [
+        'Hotel para perros'
+        , 'Alquiler de equipos de cómputo'
+        , 'Renta de autos'
+        , 'Venta e Intercambio de Videojuegos'
+        , 'Bienes Raíces'
+        , 'Cursos de Tecnología para Niños'
+        , 'Citas para Estéticas y Barber shop'
+        , 'Donación y Acopio de Ropa y Calzado'
+        , 'Recolección de desechos tecnológicos'
+        , 'Viajes Experienciales'
+        , 'Tienda de artículos para mascotas'
+        , 'Entregas a domicilio (mandados)'
+        , 'Préstamo e intercambio de libros'
+        , 'Renta de espacios para oficinas y eventos'
+        , 'Organizadores de fiestas infantiles'
+        , 'Venta de joyas de segunda mano'
+        , 'Renta e Intercambio de juguetes'
+        , 'Estancia de persona de la tercera edad' 
+    ];
+    shuffle($proyectos);
+    foreach($proyectos as $indice => $proyecto){
+        ++$indice;
+        echo "<div>Equipo {$indice}: {$proyecto}</div>";
+    }
     ?>
     </div>
     <script src="js/bootstrap.min.js"></script>

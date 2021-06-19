@@ -1,0 +1,12 @@
+{
+    "name": "envy/dsm33",
+    "authors": [
+        {
+            "name": "2021 DSM33 Itzel Guadalupe Escalante Nuñez",
+            "email": "al222011158@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
